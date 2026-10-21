@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs #el nombre que espera GitHub pages
+  execute-dir: project #para no tener que usar here ::here()
+
+website:
+  title: "R en vivo"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+
+lang: es
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
